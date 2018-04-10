@@ -40,7 +40,7 @@ public class CrudBackendApplication implements CommandLineRunner {
 		customerRepository.save(new Customer("Artem","Artem","232323","mamun@h.com","Toronto","Toronto"));
 
 		orderRepository.save(new Orders("mmm","ddd","ddd","dd", (long) 1,"sss","ddd","ddd"));
-		billsRepository.save(new Bills((long)1,(long) 1,"erer","wrwr",(double) 11,(double)11,(double)11,(double)11));
+		billsRepository.save(new Bills((long)1,(double) 11,(double)11,(double)11,(double)11));
 
 	}
 }
